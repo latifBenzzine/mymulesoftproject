@@ -13,6 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.9.0</mule.version>
+		
     	<mule.tools.version>1.2</mule.tools.version>
 	<munit.version>1.3.6</munit.version>
     <mule.munit.support.version>3.9.0</mule.munit.support.version>
@@ -96,7 +97,7 @@
         	<groupId>com.mulesoft.muleesb</groupId>
 			<artifactId>mule-core-ee</artifactId>
 			<version>${mule.version}</version>
-			
+			<scope>provided</scope>
 		</dependency>
 		<!-- Xml configuration -->
 		<dependency>
